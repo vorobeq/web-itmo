@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">	
+<title>Form</title>
+<style>
+    div{
+    height:150px;
+    background-color: gray;
+    padding: 15px;
+    border: 4px solid black;
+    }
+    input[type="text"]{
+    border: 4px dashed black;
+    background-color: green;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 120%;
+    }
+    input[type="password"]{
+    }
+    a{
+    font-family: "Arial";
+    font-size: 120%;
+    }
+    img {
+    width: 300px;
+    height: 300px;
+    }
+    option{
+    font-family: "Arial";
+    font-size: 120%;
+    }
+    #Russia{
+    font-weight: bold;
+    }
+    .droplist{
+    background-color: red;
+    font-size: 14px;
+    padding-left: 10px;
+    margin: 10px;
+    }
+    .second{
+    height: 350px;
+    }
+    img{
+    float: left;
+    padding: 10px;
+    }
+    .Res{
+    margin: 10px;
+    }
+    sp:link{ color:blue;text-decoration:none}
+    sp:visited{color:pink;text-decoration:none}
+    sp:hover{color:red;text-decoration:underline}
+    sp:active{color:yellow;text-decoration:underline}
+    #save{
+    margin: 10px;
+    position: absolute;
+    bottom: 330px;
+    left: 25px;
+    }
+</style>
+</head>
+<body>
+<div>
+    <form id="main">
+    <a>Sign In:</a><br>
+        <a>Имя:</a>
+        <input type="text" name="Login" size="20"><br><br>
+        <a>Пароль:</a>
+        <input type="password" width="10" name="pass"><br>
+        <p>
+        <input type="submit" value="Отправить">
+    </form>
+</div><br>
+<div class='second'>
+    <form id="sec">
+    <img src="123.jpg"/>
+    <select class="droplist" name="Страна">Выберите страну
+        <option id="Japan" value="Китай">Китай</OPTION>
+        <option id="China" value="США">США</option>
+        <option id="Russia" value="Россия" selected>Россия</option>
+    </select><br>
+    <input class="Res" type="checkbox">Я являюсь резидентом этой страны</input>
+    <input id="save" type="submit" value="Сохранить">
+    </form>    
+</div>
+</body>
+</html> 
