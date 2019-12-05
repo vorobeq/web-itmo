@@ -1,0 +1,59 @@
+body{
+	background: linear-gradient(to right, #141928, #374b64);
+}
+
+.writer-img{
+	margin: 30px 10px 10px 30px;
+	width: 80px;
+	height: auto;
+	box-shadow: 3.5px 0 8px #000080;
+}
+
+.byline{ 
+	font-size: 12pt;
+	color: #696969;
+ 	font-family: arial;
+	text-transform: uppercase;
+}
+
+h1{
+	font-size: 31pt;
+	text-align: center;
+	color: white;
+}
+
+h2{
+	font-size: 19pt;
+	color: #696969;
+	width: 400px;
+}
+
+p{
+	font-size: 13pt;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.image{
+	background-image: url(images/soccer.jpeg);
+	background-repeat: no-repeat;
+	height: 700px;
+	background-size:cover;
+} 
+
+.caption{
+	position:relative;
+	left:50px;
+	top:630px;
+	width:500px;
+	height:auto;
+	font-style:italic;
+	font-size:13pt;
+	font-weight: bold;
+	font-family: georgia;
+	color:black;
+	opacity: 0.7;
+ 	background: white; 
+ 	padding: 6px; 	
+}
