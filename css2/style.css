@@ -1,0 +1,59 @@
+  
+body{
+  background-image: url(hip.jpg);
+  background-repeat: round;
+  background-size: auto 100%;
+}
+.updown{
+  width: 100%;
+  height: 100px;
+  background-color:gray;
+  color:black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.main{
+  position: relative;
+}
+
+.blocks{
+  text-shadow: 1px 1px 3px white ;
+  width: 50%;
+  height: 180px;
+  background-size: auto 200px;
+  background-repeat: round;
+  background-color: #b5e61e;
+}
+#block1{
+  position: absolute;
+  top: 20%;
+  left: 12.5%;
+  background-image: url(slim.jpg)
+}
+#block2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: url(jayz.jpg)
+}
+#content{
+  background-color:gray;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 50%;
+  height: 750px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 24px;
+}
+.txt{
+  color:white;
+  padding-left:10px;
+  text-align:left;
+  font-size:20px;
+}
+p{
+  font-size: 20px;
+}
