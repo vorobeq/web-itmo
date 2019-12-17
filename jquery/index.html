@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <p id="first_paragraph" class="first_task">Параграф 1</p>
+    <p class="first_task">Параграф 2</p>
+    <p class="first_task">Параграф 3</p>
+    <a href="#first_paragraph" class="first_task">ссылка №1</a></br>
+    <a href="#first_paragraph" class="first_task">ссылка №2</a></br>
+    <form>
+      <input type="text" name="text">
+      <input type="password" name="password">
+    </form>
+    <button onclick="reloadPage()">Перезагрузить</button>
+    <button onclick="getJSON()">Показать JSON</button>
+    <table>
+      <tr>
+        <td><p class="prgInTable">Текст для теста</p></td>
+        <td><button type="button" onclick="toggle(0)" class="btnInTable">Переключить</button></td>
+      </tr>
+      <tr>
+        <td><p class="prgInTable">Текст для теста</p></td>
+        <td><button type="button" onclick="fadeToggle(1)" class="btnInTable">Раствориться в ночи</button></td>
+      </tr>
+      <tr>
+        <td><p class="prgInTable">Текст для теста</p></td>
+        <td><button type="button" onclick="animateFont(2)" class="btnInTable">Анимация</button></td>
+      </tr>
+      <tr>
+        <td><p class="prgInTable">Текст для теста</p></td>
+        <td><button type="button" onclick="slideToggle(3)" class="btnInTable">Некст слайд</button></td>
+      </tr>
+      <tr>
+        <td><p class="prgInTable">Очень много теста для текста</p></td>
+        <td><button type="button" onclick="opacityAnimation(4)" class="btnInTable">Исчезнуть</button></td>
+      </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
