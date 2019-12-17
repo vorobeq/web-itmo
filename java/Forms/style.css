@@ -1,0 +1,27 @@
+button:not(.LastButton) {
+	border-radius: 10px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 3px 3px 3px 24px;
+}
+
+button:hover {
+	background-color: #662266;
+}
+
+button.FormName {
+	background-image: url(https://img.icons8.com/carbon-copy/100/000000/name.png);
+}
+
+button.Accessory {
+	background-image: url(https://img.icons8.com/color/48/000000/mens-belt.png);
+}
+
+button.Reset {
+	background-image: url(https://img.icons8.com/ios-glyphs/30/000000/restart-love.png);
+}
+
+button.Quantity {
+	background-image: url(https://img.icons8.com/dotty/80/000000/estimates.png);
+}
