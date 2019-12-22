@@ -5,8 +5,8 @@ body{
   background-size: auto 100%;
 }
 
-.updown{
-  height: 100px;
+.up{
+  100px;
   width: 100%;
   background-color:gray;
   color:black;
@@ -52,7 +52,7 @@ body{
   font-size: 24px;
 }
 
-.txt{
+.down{
   color:white;
   text-align:center;
   font-size:20px;
